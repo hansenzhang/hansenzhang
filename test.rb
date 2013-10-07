@@ -8,6 +8,11 @@ get '/' do
     haml :index
 end
 
-get '/hi' do
+get '/airline' do
+    #launch airline interface
     "Hello World!"
+end
+
+get '/resume' do
+
 end
