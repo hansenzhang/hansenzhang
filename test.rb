@@ -10,7 +10,7 @@ end
 
 get '/airline' do
     #launch airline interface
-    "Hello World!"
+    haml :airline
 end
 
 get '/resume' do
